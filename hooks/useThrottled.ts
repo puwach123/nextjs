@@ -1,6 +1,6 @@
 import { useCallback, useRef } from "react";
 
-export function useThrottled(
+export default function useThrottled(
   callback: () => void,
   wait: number = 200,
   options?: { leading: boolean; trailing: boolean }

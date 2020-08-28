@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, DependencyList } from "react";
 
-export function useDeepEqual<T>(
+export default function useDeepEqual<T>(
   value: T,
   deepEqualFn: (curr: T, prev: T) => boolean
 ): T {

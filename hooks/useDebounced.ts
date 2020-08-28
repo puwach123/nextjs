@@ -1,6 +1,6 @@
 import { useCallback, useRef } from "react";
 
-export function useDebounced(
+export default function useDebounced(
   callback: () => void,
   wait: number = 200,
   immediate: boolean = true

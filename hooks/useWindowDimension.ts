@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useThrottled } from "./useThrottled";
+import useThrottled from "./useThrottled";
 
 export function useWindowWidth() {
   const [width, setWidth] = useState(window.innerWidth);

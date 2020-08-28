@@ -1,6 +1,6 @@
 import { useState, useCallback, Dispatch, SetStateAction } from "react";
 
-export function useLocalStorage<T>(
+export default function useLocalStorage<T>(
   key: string,
   initialValue?: T
 ): [T | undefined, (value: T) => void, () => void] {
