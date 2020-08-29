@@ -5,6 +5,9 @@ const theme: Theme = createMuiTheme({
   overrides: {},
   palette: {
     primary: blue,
+    secondary: {
+      main: "#19857b",
+    },
     background: {
       default: "#fff",
     },

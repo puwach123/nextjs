@@ -6,9 +6,11 @@
       "dom.iterable",
       "esnext"
     ],
+    "baseUrl": ".",
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
+    "module": "esnext",
     "forceConsistentCasingInFileNames": true,
     "allowSyntheticDefaultImports": true,
     "noEmit": true,
